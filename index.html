@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lab 1 - Pilka do kosza</title>
+
+  </head>
+
+  <body onload="timer()">
+    <canvas id="myCanvas">
+      Your browser does not support the HTML5 canvas tag.
+    </canvas>
+  	<div class="fields">
+  		<div class="field"> <label>Prędkość</label> <input id="speed" type="number" value="20"> </div>
+  		<div class="field"> <label>Kąt</label> <input id="angle" type="number" value="330"> </div>
+  		<div class="field">
+  			<label></label>
+  			<input id="run" type="submit" value="Start">
+  			<input id="reset" type="submit" value="Reset">
+  		</div>
+  	</div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="animacja.js"></script>
+  </body>
+</html>

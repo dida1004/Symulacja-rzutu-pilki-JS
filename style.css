@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width:  100%;
+  height: 100%;
+}
+
+canvas{
+  align-items: center;
+  display: block;
+  border: 1px solid #000000;
+  width:  80%;
+  height: 80%;
+  margin: auto;
+}
+
+.fields{
+  margin: auto;
+  width: 70%;
+}
+
+.field{
+	margin-bottom: 10px;
+}
+.field label{
+	display: inline-block;
+	width: 70px;
+}
+
+input[type="number"]{
+	border: 1px solid #ddd;
+	padding: 10px 15px;
+}
+input[type="submit"]{
+	padding: 5px 15px;
+	cursor: pointer;
+	background: #2529A2;
+	color: #fff;
+}
+input[type="submit"]:hover{
+	opacity: 0.8;
+}
